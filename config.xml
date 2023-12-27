@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pfinal" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PokeApp</name>
+    <description>Juego de Adivina el Pokemon</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        MariySabel y Cés
+    </author><platform name="android">
+    <!-- Configuración específica de Android -->
+    <preference name="Orientation" value="landscape" /> <!-- Orientación de pantalla en horizontal -->
+    <preference name="Fullscreen" value="true" /> <!-- Modo de pantalla completa -->
+
+    <!-- Icono  de la App con dimensiones específicas -->
+    <icon src="www/res/icon/poke.png" density="ldpi" />
+    <icon src="www/res/icon/poke.png" density="mdpi" />
+    <icon src="www/res/icon/poke.png" density="hdpi" />
+    <icon src="www/res/icon/poke.png" density="xhdpi" />
+</platform>
+
+<platform name="ios">
+    <!-- Configuración específica de iOS -->
+    <preference name="Orientation" value="landscape" /> <!-- Orientación de pantalla en horizontal -->
+    <preference name="Fullscreen" value="true" /> <!-- Modo de pantalla completa -->
+
+    <!-- Icono  de la App con dimensiones específicas -->
+    <icon src="www/res/icon/poke.png" width="60" height="60" />
+    <icon src="www/res/icon/poke.png" width="120" height="120" /> 
+    <icon src="www/res/icon/poke.png" width="180" height="180" /> 
+</platform>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

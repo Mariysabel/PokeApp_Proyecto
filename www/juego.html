@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+        <title>PokeApp</title>
+        <link rel="shortcut icon" href="res/icon/poke.png" type="image/x-icon">
+        
+    </head>
+    <body>
+        <asaide class="ladoizq">
+            <img id="jugar" src="https://i.pinimg.com/originals/6d/87/cb/6d87cbbf538aa11ef9853e13c1de8202.png" width="100%" class="jugar" onclick=PlayAudio()>
+            <img src="https://i.pinimg.com/originals/26/55/40/265540b230099eca6659fe506180106b.png" alt="" srcset="" width="100%" class="jugar">
+        </asaide>
+        <div class="contenedor" id="contenedor">
+            <asaide class="audio">
+                <img id="audio" src="https://i.pinimg.com/originals/fb/91/1f/fb911fec5a9233383daa60aa077310f8.png" onclick=PlayAudio() width="5%">
+                <img id="noaudio" src="https://i.pinimg.com/originals/a3/b5/f0/a3b5f0dda3396735d0a54bdc4f5f7c07.png" onclick=noAudio() width="5%"></asaide>
+            <div class="points" id="points">
+                <div class="vida">
+                    <button class="btnp" id="btnv"></button>
+                </div>
+                <div class="puntos">
+                    <button class="btnp" id="btnp"></button>
+                </div></div>
+            <div class="game" id="game">
+                <div class="respuesta">
+                    <section class="pant1"><p id="nombre" class="pokename"></p></section>
+                    <p class="pant1"><img src="" alt="" id="pokemon" class="pokemon"></p>
+                </div>
+                <div class="opciones">
+                    <button id="btn1" class="btn"></button><br><br><br>
+                    <button id="btn2" class="btn"></button><br><br><br>
+                    <button id="btn3" class="btn"></button>
+                </div></div>
+        </div>
+        <div class="final" id="final">
+            <p class="total_puntos" id="total_puntos"></p>
+            <div class="section_final">
+                <p id="mostrar" class="btnm">Mostrar resultados</p>
+                <a href="juego.html" class="btn">Jugar de nuevo</a>
+                <a href="index.html" class="btn">Ir a menú</a>
+            </div>
+        </div>
+        <asaide class="ladoder">
+            <img src="https://i.pinimg.com/originals/78/b6/fc/78b6fc8e7edd66b37c8c014e7b8e8f53.png" alt="" srcset="" width="100%" class="jugar">
+            <a href="index.html">
+                <img id="jugar" src="https://i.pinimg.com/originals/29/2b/32/292b326d5278e4f98ca58f4a1354424d.png" alt="" width="100%" class="jugar"></asaide></a>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
